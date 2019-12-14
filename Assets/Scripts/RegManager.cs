@@ -16,10 +16,12 @@ public class RegManager : MonoBehaviour
     [SerializeField] private GameObject panelInfoDiet;
     [SerializeField] private GameObject textInfoDiet;
     [SerializeField] private GameObject warningPanel;
+    
     private void Start()
     {
         ActivateStage1();
     }
+    
     public void ActivateStage1()
     {
         stage2.SetActive(false);

@@ -21,11 +21,19 @@ public class DietManager : MonoBehaviour
     #endregion
     
     [SerializeField] private List<DietEntity> allDiets = new List<DietEntity>();
-    [SerializeField] private int index;
+    private RectTransform _rectTransform;
+    private GameObject _dietElement;
+    private string _dietPath = "DietElement";
     
     private void Awake()
     {
+        _rectTransform = GetComponent<RectTransform>();
         Initialize();
+    }
+
+    private void Start()
+    {
+        CreateDietElements();
     }
 
     private void Initialize()
@@ -47,13 +55,14 @@ public class DietManager : MonoBehaviour
         allDiets.Add(diet7);
     }
 
-    public DietEntity GetDietEntity()
+    private void CreateDietElements()
     {
-        Debug.Log("GetDietEntity");
-        index++;
-        Debug.Log("index = " + index);
-        return allDiets[index];
+        _dietElement = Resources.Load<GameObject>(_dietPath);
+        for (int i = 0; i < allDiets.Count; i++)
+        {
+            GameObject diet = Instantiate(_dietElement);
+            diet.GetComponent<DietController>().SetDietEntity(allDiets[i]);
+            diet.GetComponent<RectTransform>().parent = _rectTransform;
+        }
     }
-    
-    
 }
