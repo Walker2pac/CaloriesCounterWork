@@ -5,6 +5,7 @@ using UnityEngine;
 public class DietEntity
 {
     private string name;
+    private string description;
     private int squirrels;
     private int fats;
     private int carbohydrates;

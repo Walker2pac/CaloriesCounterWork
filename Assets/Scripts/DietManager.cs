@@ -24,6 +24,8 @@ public class DietManager : MonoBehaviour
     private RectTransform _rectTransform;
     private GameObject _dietElement;
     private string _dietPath = "DietElement";
+    [SerializeField] private GameObject dietDescriptionPanel;
+
     
     private void Awake()
     {
@@ -64,5 +66,6 @@ public class DietManager : MonoBehaviour
             diet.GetComponent<DietController>().SetDietEntity(allDiets[i]);
             diet.GetComponent<RectTransform>().parent = _rectTransform;
         }
+        dietDescriptionPanel.transform.SetAsLastSibling();
     }
 }

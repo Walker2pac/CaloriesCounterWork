@@ -17,6 +17,8 @@ public class RegManager : MonoBehaviour
     [SerializeField] private GameObject intensityButton;
     [SerializeField] private GameObject dietButton;
     [SerializeField] private GameObject closeInfoButton;
+    [SerializeField] private GameObject dietDescriptionPanel;
+    
     private bool onOffReg = false;
     
     private void Start()
@@ -80,6 +82,12 @@ public class RegManager : MonoBehaviour
     {
         warningPanel.SetActive(false);
     }
+
+    public GameObject GetDietDescriptionPanel()
+    {
+        return dietDescriptionPanel;
+    }
+
     
 }
 
