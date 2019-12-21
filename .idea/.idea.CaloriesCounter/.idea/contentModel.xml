@@ -10,6 +10,9 @@
           <e p="DietController.cs" t="Include" />
           <e p="DietEntity.cs" t="Include" />
           <e p="DietManager.cs" t="Include" />
+          <e p="IntensityController.cs" t="Include" />
+          <e p="IntensityEntity.cs" t="Include" />
+          <e p="IntensityManager.cs" t="Include" />
           <e p="RegManager.cs" t="Include" />
           <e p="UIManager.cs" t="Include" />
         </e>

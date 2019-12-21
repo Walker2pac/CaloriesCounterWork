@@ -28,7 +28,7 @@ public class DietManager : MonoBehaviour
     private void Awake()
     {
         _rectTransform = GetComponent<RectTransform>();
-        Initialize();
+         Initialize();
     }
 
     private void Start()

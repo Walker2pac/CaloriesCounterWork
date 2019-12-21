@@ -13,9 +13,11 @@ public class RegManager : MonoBehaviour
     [SerializeField] private TMP_InputField inputHeight;
     [SerializeField] private GameObject panelIntensity;
     [SerializeField] private GameObject panelDiet;
-    [SerializeField] private GameObject panelInfoDiet;
-    [SerializeField] private GameObject textInfoDiet;
     [SerializeField] private GameObject warningPanel;
+    [SerializeField] private GameObject intensityButton;
+    [SerializeField] private GameObject dietButton;
+    [SerializeField] private GameObject closeInfoButton;
+    private bool onOffReg = false;
     
     private void Start()
     {
@@ -30,9 +32,17 @@ public class RegManager : MonoBehaviour
     
     public void ActivateStage2()
     {
-        if (inputWeight.text == "" || inputHeight.text == "" || inputWeight2.text == "")
+        if (onOffReg)
         {
-            warningPanel.SetActive(true);
+            if (inputWeight.text == "" || inputHeight.text == "" || inputWeight2.text == "")
+            {
+                warningPanel.SetActive(true);
+            }
+            else
+            {
+                stage1.SetActive(false);
+                stage2.SetActive(true);
+            }
         }
         else
         {
@@ -44,29 +54,28 @@ public class RegManager : MonoBehaviour
     public void ActiveIntensity()
     {
         panelIntensity.SetActive(true);
+        closeInfoButton.SetActive(true);
+        intensityButton.SetActive(false);
+        dietButton.SetActive(false);
     }
-
-    public void CloseIntensity()
-    {
-        panelIntensity.SetActive(false);
-    }
-
+    
     public void ActiveDiet()
     {
         panelDiet.SetActive(true);
+        closeInfoButton.SetActive(true);
+        intensityButton.SetActive(false);
+        dietButton.SetActive(false);
     }
-    
-    public void CloseDiet()
+
+    public void CloseInfoPanel()
     {
+        closeInfoButton.SetActive(false);
         panelDiet.SetActive(false);
-    }
-
-    public void ActiveTextInfoDiet()
-    {
-        panelInfoDiet.SetActive(true);
-        textInfoDiet.SetActive(true);
-    }
-
+        panelIntensity.SetActive(false);
+        intensityButton.SetActive(true);
+        dietButton.SetActive(true);
+    } 
+    
     public void CloseInfoAttention()
     {
         warningPanel.SetActive(false);
