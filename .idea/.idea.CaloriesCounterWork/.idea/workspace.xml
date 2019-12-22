@@ -2,36 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc5690e1-f86a-45c6-970f-442149b2b01e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CaloriesCounterWork/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CaloriesCounterWork/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CaloriesCounterWork/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CaloriesCounterWork/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CaloriesCounterWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CaloriesCounterWork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Comfortaa-Regular_Russian.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Comfortaa-Regular_Russian.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/DietElement.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DietElement.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/SportElement.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/SportElement.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DescriptionPanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DescriptionPanelController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DietController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DietController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DietEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DietEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/663085_background-images-png-for-android.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/663085_background-images-png-for-android.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/back.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/back.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/back.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/back.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cropped-los-lab-logo-512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/cropped-los-lab-logo-512.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/fast-forward — копия.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/fast-forward — копия.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/fast-forward.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/fast-forward.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/icon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/logo-symbol-attention-png.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/logo-symbol-attention-png.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/right.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/rounded-rectangle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/rounded-rectangle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/фон для диет.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/фон для диет.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DietManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DietManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RegManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RegManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/LogoEx.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/LogoEx.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/carbohydrates.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/carbohydrates.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/fats.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/fats.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/protein.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/protein.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +42,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IntensityEntity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntensityController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntensityManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DietManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RegManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DietController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DietEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DietManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DescriptionPanelController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DietController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RegManager.cs" />
       </list>
     </option>
   </component>
@@ -127,6 +110,7 @@
       <updated>1576908400119</updated>
       <workItem from="1576908404069" duration="4279000" />
       <workItem from="1576947436446" duration="3396000" />
+      <workItem from="1577006394516" duration="6906000" />
     </task>
     <servers />
   </component>
@@ -140,7 +124,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

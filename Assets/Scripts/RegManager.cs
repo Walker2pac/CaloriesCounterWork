@@ -19,7 +19,7 @@ public class RegManager : MonoBehaviour
     [SerializeField] private GameObject closeInfoButton;
     [SerializeField] private GameObject dietDescriptionPanel;
     
-    private bool onOffReg = false;
+    private bool onOffReg = true;
     
     private void Start()
     {
