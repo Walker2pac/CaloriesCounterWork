@@ -16,6 +16,7 @@
           <e p="IntensityEntity.cs" t="Include" />
           <e p="IntensityManager.cs" t="Include" />
           <e p="RegManager.cs" t="Include" />
+          <e p="Test.cs" t="Include" />
           <e p="UIManager.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

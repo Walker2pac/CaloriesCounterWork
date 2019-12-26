@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.06666667, g: 0.5137255, b: 0.7254902, a: 0.627451}
+  m_Color: {r: 0.5577163, g: 0.7830189, b: 0.7441736, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -711,7 +711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.44388574, g: 0.61174405, b: 0.7075472, a: 0.627451}
+  m_Color: {r: 0.4710306, g: 0.60706097, b: 0.6886792, a: 0.7764706}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1016,4 +1016,3 @@ MonoBehaviour:
   nameText: {fileID: 7156454631801206793}
   energyText: {fileID: 5894183337929635747}
   descriptionButton: {fileID: 6565069446171651054}
-  closeDescriptionPanelButton: {fileID: 0}
