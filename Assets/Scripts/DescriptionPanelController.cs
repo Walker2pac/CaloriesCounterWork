@@ -13,6 +13,7 @@ public class DescriptionPanelController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI fats;
     [SerializeField] private TextMeshProUGUI carbohydrate;
     [SerializeField] private GameObject descriptionPanel;
+    private DietController _dietController;
     
 
     public void SetDescriptionName(string name, string description, string calories, int protein, int fats, int carbohydrate)
@@ -25,9 +26,14 @@ public class DescriptionPanelController : MonoBehaviour
         this.carbohydrate.SetText(carbohydrate.ToString());
     }
 
+    public void SetDietController(DietController dietController)
+    {
+        _dietController = dietController;
+    }
+
     public void CloseDescriptionPanel()
     {
-        descriptionPanel.SetActive(false);
+        _dietController.SetActiveDiet();
     }
     
 }
