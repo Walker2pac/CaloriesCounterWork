@@ -5,7 +5,25 @@ using UnityEngine;
 
 public class RegManager : MonoBehaviour
 {
+    #region Singletone
 
+    private static RegManager _instance;
+
+    public static RegManager Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = FindObjectOfType<RegManager>();
+            }
+
+            return _instance;
+        }
+    }
+
+    #endregion
+    
     [SerializeField] private GameObject stage1;
     [SerializeField] private GameObject stage2;
     [SerializeField] private TMP_InputField inputWeight;

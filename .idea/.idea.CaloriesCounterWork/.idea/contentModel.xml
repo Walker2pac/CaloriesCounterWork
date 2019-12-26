@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\emka\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\emka\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_CaloriesCounterWork.-1106627647.00" t="ExcludeRecursive" />
-    <e p="C:\Users\emka\Desktop\CaloriesCounterWork" t="IncludeRecursive">
+    <e p="C:\Users\Admin\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Admin\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_CaloriesCounterWork.1457202993.00" t="ExcludeRecursive" />
+    <e p="D:\_UnityProjects\Course\CaloriesCounterWork" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Hello_World.txt" t="Include" />
@@ -12,6 +12,7 @@
           <e p="DietController.cs" t="Include" />
           <e p="DietEntity.cs" t="Include" />
           <e p="DietManager.cs" t="Include" />
+          <e p="GameConstants.cs" t="Include" />
           <e p="IntensityController.cs" t="Include" />
           <e p="IntensityEntity.cs" t="Include" />
           <e p="IntensityManager.cs" t="Include" />
