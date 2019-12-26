@@ -18,8 +18,7 @@ public class RegManager : MonoBehaviour
     [SerializeField] private GameObject dietButton;
     [SerializeField] private GameObject closeInfoButton;
     [SerializeField] private GameObject dietDescriptionPanel;
-    
-    private bool onOffReg = false;
+    [SerializeField] private bool debug = true;
     
     private void Start()
     {
@@ -34,7 +33,7 @@ public class RegManager : MonoBehaviour
     
     public void ActivateStage2()
     {
-        if (onOffReg)
+        if (!debug)
         {
             if (inputWeight.text == "" || inputHeight.text == "" || inputWeight2.text == "")
             {
