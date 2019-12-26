@@ -11,7 +11,8 @@ public class DietController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI energyText;
     [SerializeField] private Button descriptionButton;
     private DescriptionPanelController _dpc;
-
+    private DietEntity _dietEntity;
+    
     private void Start()
     {
         descriptionButton.onClick.AddListener(ActivateDietInfo);
@@ -20,23 +21,25 @@ public class DietController : MonoBehaviour
     public void SetDietEntity(DietEntity dietEntity)
     {
         nameText.SetText(dietEntity.Name);
-        energyText.SetText(dietEntity.Squirrels + "/" + dietEntity.Fats + "/" + dietEntity.Carbohydrates);
+        energyText.SetText(dietEntity.Protein + "/" + dietEntity.Fats + "/" + dietEntity.Carbohydrates);
+        this._dietEntity = dietEntity;
     }
 
     private void ActivateDietInfo()
     {
         _dpc = FindObjectOfType<RegManager>().GetDietDescriptionPanel().GetComponent<DescriptionPanelController>();
-        _dpc.SetDescriptionName(nameText.text);
+        _dpc.SetDescriptionName(nameText.text, _dietEntity.Description, _dietEntity.Calories, _dietEntity.Protein, _dietEntity.Fats, _dietEntity.Carbohydrates );
         ActiveDietDescriptionPanel();
     }
     
     private void ActiveDietDescriptionPanel()
     {
         _dpc.gameObject.SetActive(true);
+        
     }
     
-    private void CloseDietDescriptionPanel()
+/*    private void CloseDietDescriptionPanel()
     {
         _dpc.gameObject.SetActive(false);
-    }
+    }*/
 }
