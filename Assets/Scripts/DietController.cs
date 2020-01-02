@@ -45,11 +45,5 @@ public class DietController : MonoBehaviour
     private void ActiveDietDescriptionPanel()
     {
         _dpc.gameObject.SetActive(true);
-        
     }
-    
-/*    private void CloseDietDescriptionPanel()
-    {
-        _dpc.gameObject.SetActive(false);
-    }*/
 }

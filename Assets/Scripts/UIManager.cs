@@ -10,10 +10,10 @@ public class UIManager : MonoBehaviour
     
     private void Start()
     {
-        ActivateAutorizationScreen();
+        ActivateAuthorizationScreen();
     }
 
-    private void ActivateAutorizationScreen()
+    private void ActivateAuthorizationScreen()
     {
         registrationScreen.SetActive(false);
         loginScreen.SetActive(true);

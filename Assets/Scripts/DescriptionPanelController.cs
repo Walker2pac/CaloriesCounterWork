@@ -31,9 +31,14 @@ public class DescriptionPanelController : MonoBehaviour
         _dietController = dietController;
     }
 
-    public void CloseDescriptionPanel()
+    public void SelectDescription()
     {
         _dietController.SetActiveDiet();
+    }
+    
+    public void CloseDescriptionPanel()
+    {
+        descriptionPanel.SetActive(false);
     }
     
 }
