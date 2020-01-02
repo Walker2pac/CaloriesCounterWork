@@ -19,6 +19,7 @@
           <e p="RegManager.cs" t="Include" />
           <e p="Test.cs" t="Include" />
           <e p="UIManager.cs" t="Include" />
+          <e p="UserAccount.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
