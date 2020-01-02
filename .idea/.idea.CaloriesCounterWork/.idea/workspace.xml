@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86894db7-9fdb-47fd-ba36-e1244f9dd07a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CaloriesCounterWork/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CaloriesCounterWork/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CaloriesCounterWork/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CaloriesCounterWork/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CaloriesCounterWork/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CaloriesCounterWork/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/DietElement.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DietElement.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/SportElement.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/SportElement.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DescriptionPanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DescriptionPanelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DietController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DietController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/RegManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RegManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/LogoEx.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/LogoEx.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,6 +97,7 @@
       <updated>1577333921699</updated>
       <workItem from="1577333925119" duration="3928000" />
       <workItem from="1577374490142" duration="5427000" />
+      <workItem from="1577466278627" duration="1343000" />
     </task>
     <servers />
   </component>
@@ -118,7 +111,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
