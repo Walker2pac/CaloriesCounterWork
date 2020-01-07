@@ -27,9 +27,8 @@ public class RegManager : MonoBehaviour
     [SerializeField] private GameObject stage1;
     [SerializeField] private GameObject stage2;
     [SerializeField] private GameObject stage3;
-    [SerializeField] private GameObject stage4;
     [SerializeField] private TMP_InputField inputWeight;
-    [SerializeField] private TMP_InputField inputWeight2;
+    [SerializeField] private TMP_InputField inputAge;
     [SerializeField] private TMP_InputField inputHeight;
     [SerializeField] private GameObject panelIntensity;
     [SerializeField] private GameObject panelDiet;
@@ -42,7 +41,9 @@ public class RegManager : MonoBehaviour
     [SerializeField] private GameObject panelQuestion;
     [SerializeField] private GameObject dietQuestion;
     [SerializeField] private GameObject intensityQuestion;
-    
+    [SerializeField] private GameObject womanButton;
+    [SerializeField] private GameObject manButton;
+
     private void Start()
     {
         ActivateStage1();
@@ -52,13 +53,12 @@ public class RegManager : MonoBehaviour
         stage1.SetActive(true);
         stage2.SetActive(false);
         stage3.SetActive(false);
-        stage4.SetActive(false);
     }
     public void ActivateStage2()
     {
         if (!debug)
         {
-            if (inputWeight.text == "" || inputHeight.text == "" || inputWeight2.text == "")
+            if (inputWeight.text == "" || inputHeight.text == "" || inputAge.text == "")
             {
                 warningPanel.SetActive(true);
             }
@@ -67,7 +67,6 @@ public class RegManager : MonoBehaviour
                 stage1.SetActive(false);
                 stage2.SetActive(true);
                 stage3.SetActive(false);
-                stage4.SetActive(false);
             }
         }
         else
@@ -75,7 +74,6 @@ public class RegManager : MonoBehaviour
             stage1.SetActive(false);
             stage2.SetActive(true);
             stage3.SetActive(false);
-            stage4.SetActive(false);
         }
     }
     public void ActivateStage2f()
@@ -83,22 +81,12 @@ public class RegManager : MonoBehaviour
         stage1.SetActive(false);
         stage2.SetActive(true);
         stage3.SetActive(false);
-        stage4.SetActive(false);
     }
     public void ActivateStage3()
     {
         stage1.SetActive(false);
         stage2.SetActive(false);
         stage3.SetActive(true);
-        stage4.SetActive(false);
-    }
-
-    public void ActivateStage4()
-    {
-        stage1.SetActive(false);
-        stage2.SetActive(false);
-        stage3.SetActive(false);
-        stage4.SetActive(true);
     }
     public void ActiveIntensity()
     {
@@ -109,6 +97,8 @@ public class RegManager : MonoBehaviour
         dietQuestion.SetActive(false);
         intensityButton.SetActive(false);
         dietButton.SetActive(false);
+        womanButton.SetActive(false);
+        manButton.SetActive(false);
     }
     public void ActiveDiet()
     {
@@ -119,6 +109,8 @@ public class RegManager : MonoBehaviour
         intensityQuestion.SetActive(false);
         intensityButton.SetActive(false);
         dietButton.SetActive(false);
+        womanButton.SetActive(false);
+        manButton.SetActive(false);
     }
     public void CloseInfoPanel()
     {
@@ -131,6 +123,8 @@ public class RegManager : MonoBehaviour
         dietQuestion.SetActive(false);
         intensityButton.SetActive(true);
         dietButton.SetActive(true);
+        womanButton.SetActive(true);
+        manButton.SetActive(true);
     }
     public void CloseAttention()
     {

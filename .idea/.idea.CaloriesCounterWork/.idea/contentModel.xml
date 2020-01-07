@@ -8,7 +8,6 @@
       <e p="Assets" t="Include">
         <e p="Hello_World.txt" t="Include" />
         <e p="Scripts" t="Include">
-          <e p="BornDateManager.cs" t="Include" />
           <e p="DescriptionPanelController.cs" t="Include" />
           <e p="DietController.cs" t="Include" />
           <e p="DietEntity.cs" t="Include" />
@@ -17,7 +16,6 @@
           <e p="IntensityController.cs" t="Include" />
           <e p="IntensityEntity.cs" t="Include" />
           <e p="IntensityManager.cs" t="Include" />
-          <e p="NumberController.cs" t="Include" />
           <e p="RegManager.cs" t="Include" />
           <e p="Test.cs" t="Include" />
           <e p="UIManager.cs" t="Include" />

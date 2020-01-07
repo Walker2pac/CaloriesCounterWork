@@ -4,6 +4,18 @@ using UnityEngine;
 
 public class UserAccount : MonoBehaviour
 {
+    public int Weight
+    {
+        get => weight;
+        set => weight = value;
+    }
+
+    public int Height
+    {
+        get => height;
+        set => height = value;
+    }
+
     public string Name
     {
         get => name;
@@ -31,19 +43,18 @@ public class UserAccount : MonoBehaviour
     }
 
     private string name;
+    private int weight;
+    private int height;
     private int age;
     private bool gender;
     private string activeDiet;
     private string activeIntensity;
 
-    public UserAccount()
-    {
-        
-    }
-
-    public UserAccount(string name, int age, bool gender, string activeDiet, string activeIntensity)
+    public UserAccount(string name, int weight, int height, int age,   bool gender, string activeDiet, string activeIntensity)
     {
         this.name = name;
+        this.weight = weight;
+        this.height = height;
         this.age = age;
         this.gender = gender;
         this.activeDiet = activeDiet;

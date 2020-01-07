@@ -10,7 +10,8 @@ public class GameConstants : MonoBehaviour
     public const string DIET_NAME_CLASSIC = "Классическая(снижение веса -10%)";
     public const string DIET_NAME_ZONES = "Диета Зона";
     public const string DIET_NAME_ATKINS = "Диета Аткинса";
-    public const string DIET_NAME_HIGH_CARB = "Высокоуглеводная";
+    public const string DIET_NAME_HIGH_CARB = "Высокоуглеводная (набор массы +10%)";
+    public const string DIET_NAME_LOW_CARB = "Низкоуглеводная (снижение веса -10%)";
     public const string DIET_NAME_KETOGENIC = "Кетогенная";
     
     public const string INTENSITY_NAME_SEDENTARY_WORK = "Сидячая работа";
@@ -18,6 +19,4 @@ public class GameConstants : MonoBehaviour
     public const string INTENSITY_NAME_4_TIMES_TRAINING = "Тренировка 2-4 раз в неделю";
     public const string INTENSITY_NAME_6_TIMES_TRAINING = "Тренировка 4-6 раз в неделю";
     public const string INTENSITY_NAME_EVERYDAY = "Каждый день";
-
-    public const string BORN_DATE_PREFAB_PATH = "Number";
 }
