@@ -19,7 +19,7 @@ public class IntensityManager : MonoBehaviour
     }
 
     private void CreateIntensityEntities()
-    {
+    { 
         _allEntities.Add(new IntensityEntity("Сидячая работа"));
         _allEntities.Add(new IntensityEntity("Тренировка 1-2 раз в неделю"));
         _allEntities.Add(new IntensityEntity("Тренировка 2-3 раз в неделю"));
