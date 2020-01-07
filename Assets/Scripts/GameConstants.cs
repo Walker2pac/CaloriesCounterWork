@@ -19,4 +19,9 @@ public class GameConstants : MonoBehaviour
     public const string INTENSITY_NAME_4_TIMES_TRAINING = "Тренировка 2-4 раз в неделю";
     public const string INTENSITY_NAME_6_TIMES_TRAINING = "Тренировка 4-6 раз в неделю";
     public const string INTENSITY_NAME_EVERYDAY = "Каждый день";
+    
+    public const string CHOOSE_TEXT_DIET = "Выбор диеты";
+    public const string CHOOSE_TEXT_INTENSITY = "Интенсивность тренировок";
+    
+    
 }

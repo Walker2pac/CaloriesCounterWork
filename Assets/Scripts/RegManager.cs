@@ -39,8 +39,8 @@ public class RegManager : MonoBehaviour
     [SerializeField] private GameObject dietDescriptionPanel;
     [SerializeField] private bool debug = true;
     [SerializeField] private GameObject panelQuestion;
-    [SerializeField] private GameObject dietQuestion;
-    [SerializeField] private GameObject intensityQuestion;
+    [SerializeField] private GameObject choosePanel;
+    [SerializeField] private TextMeshProUGUI chooseText;
     [SerializeField] private GameObject womanButton;
     [SerializeField] private GameObject manButton;
 
@@ -88,30 +88,31 @@ public class RegManager : MonoBehaviour
         stage2.SetActive(false);
         stage3.SetActive(true);
     }
-    public void ActiveIntensity()
-    {
-        panelIntensity.SetActive(true);
-        closeInfoButton.SetActive(true);
-        panelQuestion.SetActive(true);
-        intensityQuestion.SetActive(true);
-        dietQuestion.SetActive(false);
-        intensityButton.SetActive(false);
-        dietButton.SetActive(false);
-        womanButton.SetActive(false);
-        manButton.SetActive(false);
-    }
     public void ActiveDiet()
     {
         panelDiet.SetActive(true);
         closeInfoButton.SetActive(true);
         panelQuestion.SetActive(true);
-        dietQuestion.SetActive(true);
-        intensityQuestion.SetActive(false);
+        choosePanel.SetActive(true);
+        chooseText.SetText(GameConstants.CHOOSE_TEXT_DIET);
         intensityButton.SetActive(false);
         dietButton.SetActive(false);
         womanButton.SetActive(false);
         manButton.SetActive(false);
     }
+    public void ActiveIntensity()
+    {
+        panelIntensity.SetActive(true);
+        closeInfoButton.SetActive(true);
+        panelQuestion.SetActive(true);
+        choosePanel.SetActive(true);
+        chooseText.SetText(GameConstants.CHOOSE_TEXT_INTENSITY);
+        intensityButton.SetActive(false);
+        dietButton.SetActive(false);
+        womanButton.SetActive(false);
+        manButton.SetActive(false);
+    }
+
     public void CloseInfoPanel()
     {
         closeInfoButton.SetActive(false);
@@ -119,8 +120,7 @@ public class RegManager : MonoBehaviour
         panelDiet.SetActive(false);
         panelIntensity.SetActive(false);
         panelQuestion.SetActive(false);
-        intensityQuestion.SetActive(false);
-        dietQuestion.SetActive(false);
+        choosePanel.SetActive(false);
         intensityButton.SetActive(true);
         dietButton.SetActive(true);
         womanButton.SetActive(true);
